@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab05 - Nhiệm vụ 3.1: Trưng bày Nội dung Số</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        .card {
+            background: #fff;
+            padding: 24px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        h1 {
+            text-align: center;
+            color: #1a73e8;
+        }
+        h2 {
+            color: #202124;
+            border-bottom: 2px solid #e8eaed;
+            padding-bottom: 8px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 16px auto;
+            border-radius: 6px;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* Tỉ lệ chuẩn 16:9 */
+            height: 0;
+            overflow: hidden;
+            border-radius: 6px;
+            margin-top: 16px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        .copyright {
+            font-size: 0.9em;
+            color: #666;
+            font-style: italic;
+            margin-top: 12px;
+            padding-top: 8px;
+            border-top: 1px dashed #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>BÁO CÁO NỘI DUNG SỐ - LAB 05</h1>
+
+    <!-- Phần 1: Hiển thị Infographic từ Nhiệm vụ 2.1 -->
+    <div class="card">
+        <h2>1. Infographic: Ứng dụng công nghệ số trong học tập</h2>
+        <p>Infographic tóm tắt các lợi ích và cách áp dụng công nghệ số giúp nâng cao hiệu quả học tập.</p>
+        
+        <!-- Lưu ý: file ảnh Lab05_Ex2.1.png cần nằm cùng thư mục hoặc chỉnh đúng đường dẫn -->
+        <img src="Lab05_Ex2.1.png" alt="Infographic Công nghệ số trong học tập">
+        
+        <p class="copyright">Ghi chú bản quyền: Infographic tạo bởi Canva AI, hình ảnh từ Unsplash (Unsplash license).</p>
+    </div>
+
+    <!-- Phần 2: Hiển thị Video YouTube từ Nhiệm vụ 2.2 -->
+    <div class="card">
+        <h2>2. Video: Lợi ích của công nghệ số</h2>
+        <p>Đoạn video ngắn khoảng 30 giây giới thiệu trực quan về những chuyển đổi tích cực của công nghệ số trong đời sống và giáo dục.</p>
+        
+        <div class="video-container">
+            <!-- Thay MÃ_VIDEO_CỦA_BẠN bằng ID video YouTube thật của bạn -->
+        <iframe src="https://www.youtube.com/embed/e9eSH0wi48k" allowfullscreen></iframe>
+        </div>
+    </div>
+        
+        <p class="copyright">Ghi chú bản quyền: Video tạo bởi CapCut, tài liệu từ Pexels/FreeSound (CC0).</p>
+
+</body>
+</html>
